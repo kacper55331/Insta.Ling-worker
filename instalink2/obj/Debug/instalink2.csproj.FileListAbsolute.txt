@@ -1,0 +1,10 @@
+c:\users\ceka\documents\visual studio 2013\Projects\instalink2\instalink2\bin\Debug\instalink2.exe.config
+c:\users\ceka\documents\visual studio 2013\Projects\instalink2\instalink2\bin\Debug\instalink2.exe
+c:\users\ceka\documents\visual studio 2013\Projects\instalink2\instalink2\bin\Debug\instalink2.pdb
+c:\users\ceka\documents\visual studio 2013\Projects\instalink2\instalink2\obj\Debug\instalink2.Properties.Resources.resources
+c:\users\ceka\documents\visual studio 2013\Projects\instalink2\instalink2\obj\Debug\instalink2.csproj.GenerateResource.Cache
+c:\users\ceka\documents\visual studio 2013\Projects\instalink2\instalink2\obj\Debug\instalink2.exe
+c:\users\ceka\documents\visual studio 2013\Projects\instalink2\instalink2\obj\Debug\instalink2.pdb
+c:\users\ceka\documents\visual studio 2013\Projects\instalink2\instalink2\obj\Debug\instalink2.csprojResolveAssemblyReference.cache
+c:\users\ceka\documents\visual studio 2013\Projects\instalink2\instalink2\obj\Debug\instalink2.Form1.resources
+c:\users\ceka\documents\visual studio 2013\Projects\instalink2\instalink2\obj\Debug\instalink2.main.resources

@@ -1,0 +1,101 @@
+-- phpMyAdmin SQL Dump
+-- version 3.4.11.1deb2+deb7u1
+-- http://www.phpmyadmin.net
+--
+-- Host: localhost
+-- Czas wygenerowania: 05 Kwi 2015, 23:44
+-- Wersja serwera: 5.5.38
+-- Wersja PHP: 5.4.36-0+deb7u3
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+--
+-- Baza danych: `instaling`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Struktura tabeli dla tabeli `answer`
+--
+
+CREATE TABLE IF NOT EXISTS `answer` (
+  `uid` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `answer` varchar(255) CHARACTER SET utf8 COLLATE utf8_polish_ci NOT NULL,
+  `quest` varchar(255) CHARACTER SET utf8 COLLATE utf8_polish_ci NOT NULL,
+  PRIMARY KEY (`uid`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=41 ;
+
+--
+-- Zrzut danych tabeli `answer`
+--
+
+INSERT INTO `answer` (`uid`, `answer`, `quest`) VALUES
+(1, 'tongue', 'jêzyk; mowa'),
+(2, 'shoulder', 'ramiê; bark'),
+(3, 'handsome', 'przystojny; ³adny'),
+(4, 'quiet', 'cichy'),
+(5, 'careful', 'ostro¿ny; uwa¿ny'),
+(6, 'bra', 'stanik'),
+(7, 'trousers', 'spodnie'),
+(8, 'angry', 'rozz³oszczony; wœciek³y'),
+(9, 'vain', 'pró¿ny'),
+(10, 'modest', 'skromny'),
+(11, 'trainers', 'obuwie sportowe'),
+(12, 'thumb', 'kciuk'),
+(13, 'grow up', 'rosn¹æ; dorastaæ'),
+(14, 'rude', 'niegrzeczny; ordynarny; opryskliwy; szorstki'),
+(15, 'toe', 'palec u nogi'),
+(16, 'uniform', 'mundur; mundurek'),
+(17, 'sensitive', 'wra¿liwy; czu³y'),
+(18, 'fashionable', 'modny'),
+(19, 'well-built', 'dobrze zbudowany'),
+(20, 'casual clothes', 'ubranie na co dzieñ'),
+(21, 'messy', 'brudny; upaækany; niechlujny'),
+(22, 'ugly', 'brzydki'),
+(23, 'nervous', 'nerwowy; zdenerwowany; niespokojny'),
+(24, 'glove', 'rêkawiczka'),
+(25, 'arrogant', 'arogancki'),
+(26, 'sociable', 'towarzyski'),
+(27, 'wrist', 'nadgarstek; przegub'),
+(28, 'chest', 'klatka piersiowa'),
+(29, 'reserved', 'pe³en rezerwy; ostro¿ny'),
+(30, 'honest', 'uczciwy; szczery'),
+(31, 'admire', 'podziwiaæ'),
+(32, 'elbow', 'popychaæ; szturchaæ ³okciem'),
+(33, 'scruffy', 'brudny; zaniedbany'),
+(34, 'patient', 'pacjent'),
+(35, 'wise', 'm¹dry'),
+(36, 'dress', 'ubieraæ (siê)'),
+(37, 'confident', 'pewny; pewny siebie'),
+(38, 'knee', 'kolano'),
+(39, 'slim', 'szczup³y'),
+(40, 'suit', 'garnitur');
+
+-- --------------------------------------------------------
+
+--
+-- Struktura tabeli dla tabeli `users`
+--
+
+CREATE TABLE IF NOT EXISTS `users` (
+  `uid` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `name` varchar(32) NOT NULL,
+  `password` varchar(32) NOT NULL,
+  `time` int(10) unsigned NOT NULL DEFAULT '0',
+  PRIMARY KEY (`uid`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
+-- Struktura tabeli dla tabeli `visits`
+--
+
+CREATE TABLE IF NOT EXISTS `visits` (
+  `uid` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `user` int(10) unsigned NOT NULL,
+  `time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`uid`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;

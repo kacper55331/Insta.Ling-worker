@@ -1,0 +1,13 @@
+C:\Users\CeKa\documents\visual studio 2013\Projects\instalink2\instalink2\bin\Release\instalink2.exe.config
+C:\Users\CeKa\documents\visual studio 2013\Projects\instalink2\instalink2\bin\Release\instalink2.exe
+C:\Users\CeKa\documents\visual studio 2013\Projects\instalink2\instalink2\bin\Release\instalink2.pdb
+C:\Users\CeKa\documents\visual studio 2013\Projects\instalink2\instalink2\bin\Release\MySql.Data.dll
+C:\Users\CeKa\documents\visual studio 2013\Projects\instalink2\instalink2\obj\Release\instalink2.csprojResolveAssemblyReference.cache
+C:\Users\CeKa\documents\visual studio 2013\Projects\instalink2\instalink2\obj\Release\instalink2.Form1.resources
+C:\Users\CeKa\documents\visual studio 2013\Projects\instalink2\instalink2\obj\Release\instalink2.main.resources
+C:\Users\CeKa\documents\visual studio 2013\Projects\instalink2\instalink2\obj\Release\instalink2.Properties.Resources.resources
+C:\Users\CeKa\documents\visual studio 2013\Projects\instalink2\instalink2\obj\Release\instalink2.register.resources
+C:\Users\CeKa\documents\visual studio 2013\Projects\instalink2\instalink2\obj\Release\instalink2.csproj.GenerateResource.Cache
+C:\Users\CeKa\documents\visual studio 2013\Projects\instalink2\instalink2\obj\Release\instalink2.exe
+C:\Users\CeKa\documents\visual studio 2013\Projects\instalink2\instalink2\obj\Release\instalink2.pdb
+C:\Users\CeKa\documents\visual studio 2013\Projects\instalink2\instalink2\obj\Release\instalink2.pay.resources
